@@ -21,6 +21,7 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
 
 .stats-card {
@@ -72,4 +73,14 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-text {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
